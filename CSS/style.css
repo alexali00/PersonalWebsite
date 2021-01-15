@@ -134,13 +134,13 @@ a, a:hover, a:focus, a:active {
   margin: 30px 0;
 }
 
-.white-line {    
+.white-line-vertical {    
   height: 100%;
   width: 5px;
   background-color: #F3F6F7;
 }
 
-.blue-line {    
+.blue-line-vertical {    
   height: 100%;
   width: 5px;
   background-color: #2F3440;
@@ -172,4 +172,96 @@ li.sql {
   height: 54px;
   padding-left: 44px;
   padding-top: 3px; 
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.resume-content-words {
+  padding: 20px;
+}
+
+.header {
+  font-size: 2.2em;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.header-2 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.sub-item {
+  font-size: 1.5em;
+}
+
+.education-container {
+  background-color: #2F3440;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-container span {
+  color: #F3F6F7;
+  display: block;
+}
+
+.education-container .sub-item {
+  padding-top: 25px;
+}
+
+.longhorn {
+  align-self: center;
+  margin-right: 20px;
+}
+
+#experience-container span,#experience-container p  {
+  display: block;
+  color: black;
+}
+
+.grey-line-horizontal {
+  width: 100%;
+  height: 5px;
+  background-color: #E5E5E5;
+}
+
+#resume-skills-container {
+  background-color: #2F3440;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#resume-skills-container span,#resume-skills-container p {
+  color: #F3F6F7;
+  display: block;
+}
+
+#resume-skills-container p {
+  font-size: 2em;
+}
+
+#resume-btn-div {
+  text-align: center;
+}
+
+#resume-download-btn {
+  background: #C4C4C4;
+  border: 1px solid #635656;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+#resume-download-btn:hover {
+  background: #7c7979;
+  cursor: pointer;
 }
